@@ -10962,3 +10962,27 @@ a.text-dark:focus {
   }
 }
 
+/* 追加　*/
+#timeline-id {
+
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#map-id {
+  
+  height: 600px;
+  width: 700px;
+  margin-left: 80px;
+}
+
+#comment-id{
+
+  height: 600px;
+  width: 500px;
+  margin-left: 20px;
+  border: medium solid #000;
+}

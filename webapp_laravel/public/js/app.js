@@ -49938,3 +49938,16 @@ module.exports = __webpack_require__(/*! /Applications/MAMP/WebApp/webapp_larave
 /***/ })
 
 /******/ });
+
+/* 追加　マップ機能　*/
+var map = L.map('map-id',{
+  center: [35.66572, 139.73100],
+  zoom: 17,
+});
+
+var tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '© <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+});
+tileLayer.addTo(map);
+
+L.marker([35.66572, 139.73100]).addTo(map); 
