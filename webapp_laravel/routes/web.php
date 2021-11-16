@@ -19,3 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/mapindex', 'HomeController@mapindex')->name('mapindex');
+Route::get('/comment', 'HomeController@comment')->name('comment');

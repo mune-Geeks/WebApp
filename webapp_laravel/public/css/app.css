@@ -10979,10 +10979,27 @@ a.text-dark:focus {
   margin-left: 80px;
 }
 
+#map-id2 {
+  
+  height: 600px;
+  width: 700px;
+  margin-left: 80px;
+}
+
+#btn-space {
+  height: 50px;
+  width: 220px;
+  border:  solid #000;
+  margin-left: 300px;
+  
+}
+
 #comment-id{
 
-  height: 600px;
+  height: 510px;
   width: 500px;
+  margin-top: 30px;
   margin-left: 20px;
   border: medium solid #000;
+  
 }

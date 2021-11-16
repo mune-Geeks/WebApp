@@ -49941,8 +49941,8 @@ module.exports = __webpack_require__(/*! /Applications/MAMP/WebApp/webapp_larave
 
 /* 追加　マップ機能　*/
 var map = L.map('map-id',{
-  center: [35.66572, 139.73100],
-  zoom: 17,
+  center: [35.6789,139.7642],
+  zoom: 14,
 });
 
 var tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -49950,4 +49950,18 @@ var tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 });
 tileLayer.addTo(map);
 
-L.marker([35.66572, 139.73100]).addTo(map); 
+/*L.marker([35.66572, 139.73100]).addTo(map); */
+
+var map2 = L2.map2('map-id2',{
+  center: [35.6789,139.7642],
+  zoom: 14,
+});
+
+var tileLayer2 = L2.tileLayer2('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '© <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+});
+
+tileLayer2.addTo(map2);
+
+
+

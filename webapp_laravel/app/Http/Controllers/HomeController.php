@@ -30,4 +30,10 @@ class HomeController extends Controller
     {
         return view('mapindex');
     }
+
+    public function comment()
+    {
+        $user = \Auth::user();
+        return view('comment', compact('user'));
+    }
 }
